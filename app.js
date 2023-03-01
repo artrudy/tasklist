@@ -64,3 +64,14 @@ function removeTask(e){
         }
     }
 }
+
+// Clear Tasks
+function clearTasks(e){
+    //taskList.innerHTML = '';
+
+    //faster
+    while(taskList.firstChild){
+        taskList.replaceChild(taskList.firstChild)
+    }
+
+}
