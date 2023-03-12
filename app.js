@@ -70,9 +70,9 @@ function addTask(e){
     //create new link element
     const link = document.createElement('a');
     //add a class
-    link.className = 'delete-item secondary content';
+    link.className = 'delete-item secondary-content';
     // add icon html;
-    link.innerHTML = '<i class="fa fa-remowe"></i>';
+    link.innerHTML = '<i class="fa fa-remove"></i>';
     //append the link
     li.appendChild(link);
 
