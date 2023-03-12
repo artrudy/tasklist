@@ -1,4 +1,3 @@
-//test
 //Define UI Variables
 const form = document.querySelector('#task-form');
 const taskList = document.querySelector('.collection');
@@ -10,8 +9,8 @@ const taskInput = document.querySelector('#task');
 loadEventListeners();
 
 //Load all event listeners;
-function loadEventListeners(){
-form.addEventListener('submit', addTask)
+function loadEventListeners() {
+    form.addEventListener('submit', addTask);
 }
 
 //add Task
